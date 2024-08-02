@@ -1,0 +1,4 @@
+module BZip2 {
+    header "BZip2.h"
+    link "bz2"
+}
