@@ -1,2 +1,5 @@
-// The Swift Programming Language
-// https://docs.swift.org/swift-book
+import BZip2
+
+var bzip2Version: String {
+    String(cString: BZ2_bzlibVersion())
+}
